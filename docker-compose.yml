@@ -1,0 +1,10 @@
+version: '3'
+services:
+  hh-updater:
+    build: .
+    command: sh -c "python updater.py"
+    volumes:
+      - .:/app
+    environment:
+      HH_TOKEN: <paste your token here>
+#      HH_RESUME_ID: <paste your resume id here and uncomment the line>
