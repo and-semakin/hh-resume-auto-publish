@@ -74,6 +74,6 @@ if __name__ == '__main__':
             update_resume(id)
             time.sleep(5)
 
-        # sleep 30 minutes
+        # sleep 90 minutes
         log.info('going sleep...')
-        time.sleep(60 * 30)
+        time.sleep(90 * 60)
