@@ -8,3 +8,4 @@ services:
     environment:
       HH_TOKEN: <paste your token here>
 #      HH_RESUME_ID: <paste your resume id here and uncomment the line>
+    restart: unless-stopped
